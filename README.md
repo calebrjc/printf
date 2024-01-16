@@ -15,12 +15,7 @@ Absolutely **NO dependencies** are required, *printf.c* brings all necessary rou
 If memory footprint is really a critical issue, floating point, exponential and 'long long' support and can be turned off via the `PRINTF_DISABLE_SUPPORT_FLOAT`, `PRINTF_DISABLE_SUPPORT_EXPONENTIAL` and `PRINTF_DISABLE_SUPPORT_LONG_LONG` compiler switches.
 When using printf (instead of sprintf/snprintf) you have to provide your own `_putchar()` low level function as console/serial output.
 
-
-## 2020 announcement
-This project is not dead! I just had no time in 2019 for sufficient support, sorry.
-Within the next weeks, I will have a look to all PRs and open issues.  
-Thank you all for supporting this project.
-
+**This fork follows the original repository commit-for-commit with the exception of some meson-specific files that make this library easier to integrate with meson projects. (For now....)**
 
 ## Highlights and Design Goals
 
